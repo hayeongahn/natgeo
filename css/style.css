@@ -137,7 +137,7 @@ footer .copy { text-align: center; font-size: 0.9em; color: #999; margin: 1em 0 
     header .inner { position: relative; }
 
     header .inner a { display: flex; width: 100%; height: 100%; justify-content: center; }
-    /* header .inner a img { display: flex; } */
+    header .inner a img { display: flex; }
     
     header .inner nav { display: none; position: absolute; top: 0; background-color: #000; height: 70vh; justify-content: space-between; z-index: 888; }
     header .inner nav.on { display: block; }
@@ -197,7 +197,7 @@ footer .copy { text-align: center; font-size: 0.9em; color: #999; margin: 1em 0 
     footer .copy { font-size: 0.8em; }
 }
 
-@media screen and (min-width: 470px) and (max-width: 560px) {    
+@media screen and (min-width: 360px) and (max-width: 560px) {    
     .visual .visual-content .copy span:nth-child(1) { font-weight: 600; font-size: 2em; }
     .visual .visual-content .copy span:nth-child(2) { font-weight: 500; font-size: 0.7em; }
 
