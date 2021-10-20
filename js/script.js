@@ -6,6 +6,10 @@ $(document).ready(function() {
             $('.inner .logo img').attr("src", "imgs/mini-logo.png");
             $('.inner .logo img').css("width", "auto");
             $('.inner .toggle').css("display", "block");
+        } else if (winWidth <= 560) {
+            $('.inner .logo img').css("display", "none");
+            $('.inner .logo img').css("width", "auto");
+            $('.inner .toggle').css("display", "block");
         } else {
             $('.inner .logo img').attr("src", "imgs/top-logo.png");
             $('.inner .logo img').css("width", "120px");
